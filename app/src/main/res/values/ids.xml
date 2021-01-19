@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item  name="navHome" type="id">navAddStudent</item>
+    <item name="navAddStudent" type="id">navAddStudent </item>
+    <item name="navAbout" type="id">navAbout</item>
+</resources>

@@ -28,6 +28,9 @@ class AboutusFragment : Fragment() {
         webview.loadUrl(url)
         return view
     }
+    companion object{
+        fun newInstance():AboutusFragment=AboutusFragment()
+    }
 
 
     }

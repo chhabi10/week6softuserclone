@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnlogin -> {
                 if (checkEmpty()){
                     if (etusername.text.toString() == "softwarica" && etpassword.text.toString() == "coventry") {
-                        val intent= Intent(this,dashboardActivity::class.java)
+                        val intent=  Intent(this,dashboardActivity::class.java)
+                        startActivity(intent))
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, "Incorrect username or password.", Toast.LENGTH_SHORT).show()
@@ -45,6 +46,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+
+
+
     private fun checkEmpty(): Boolean {
         var flag=true
         when{
@@ -64,6 +69,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 
 }
+
+
 
 
 
